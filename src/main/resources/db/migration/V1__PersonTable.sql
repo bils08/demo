@@ -1,0 +1,7 @@
+CREATE TABLE person (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    uuid UUID NOT NULL ,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100),
+    mobile VARCHAR(100)
+)
