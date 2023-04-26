@@ -13,6 +13,6 @@ app:
     validationQuery: SELECT 1
   data:
     mongo:
-      host: localhost
-      port: 27017
-      database: demo
+      database:
+        port: 27017
+        uri: mongodb://Billy08:admin@cluster0-shard-00-00.d5dcl.mongodb.net:27017,cluster0-shard-00-01.d5dcl.mongodb.net:27017,cluster0-shard-00-02.d5dcl.mongodb.net:27017/?ssl=true&replicaSet=atlas-umcyfe-shard-0&authSource=admin&retryWrites=true&w=majority

@@ -1,6 +1,5 @@
 package com.example.demo.model;
 
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,7 +9,6 @@ import java.util.UUID;
 @Setter
 @Getter
 @Entity
-//@Builder
 @Table(name = "person")
 public class Person {
 
